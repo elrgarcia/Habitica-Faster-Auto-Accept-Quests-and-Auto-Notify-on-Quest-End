@@ -19,7 +19,7 @@ const ENABLE_QUEST_COMPLETED_NOTIFICATION = 1;
 /* [Users] Do not edit code below this line   */
 /* ========================================== */
 const AUTHOR_ID = "01daa187-ff5e-46aa-ac3f-d4c529a8c012";
-const SCRIPT_NAME = "Faster Auto Accept Quests and Auto Notify on Quest End (with rate limit check)";
+const SCRIPT_NAME = "Faster Auto Accept Quests and Auto Notify on Quest End";
 const HEADERS = {
   "x-client" : AUTHOR_ID + "-" + SCRIPT_NAME,
   "x-api-user" : USER_ID,
