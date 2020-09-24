@@ -58,6 +58,7 @@ function doOneTimeSetup() {
     scriptProperties.setProperty("toUserId", USER_ID);
 
     api_createWebhook_waitRetryOnFail();
+    api_acceptQuest_waitRetryOnFail(); // Just to accept any pending quest invites when the script is first set up
     deleteTriggers("api_acceptQuest");
     ScriptApp.newTrigger("api_acceptQuest").timeBased().everyHours(1).create();
   }
