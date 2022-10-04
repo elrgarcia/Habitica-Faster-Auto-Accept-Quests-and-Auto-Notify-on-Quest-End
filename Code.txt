@@ -13,7 +13,7 @@ const WEB_APP_URL = "PasteGeneratedWebAppUrlHere";
 /* [Users] Optional customizations to fill in */
 /* ========================================== */
 const ENABLE_AUTO_ACCEPT_QUESTS = 1;
-const ENABLE_QUEST_COMPLETED_NOTIFICATION = 2; // 0 = none, 1 = via Habitica message, 2 = via email
+const ENABLE_QUEST_COMPLETED_NOTIFICATION = 1; // 0 = none, 1 = via Habitica message, 2 = via email
 
 /* ========================================== */
 /* [Users] Do not edit code below this line   */
